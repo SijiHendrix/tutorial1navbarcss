@@ -1,0 +1,68 @@
+body {
+  margin: auto;
+  font-family: 'Roboto' Arial, san-serif;
+  background: #f3f3f3;
+  color: #333;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: #333;
+}
+
+a:visited {
+  color: #333;
+}
+
+.main-header {
+  max-width: 100%;
+  padding: 0 10em;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 1px 20px rgba(0,0,0,0.2);
+  height: 10vh;
+
+}
+
+.main-nav ul {
+  display: flex;
+}
+
+.main-nav li {
+  margin-left: 0.9375em;
+}
+
+.button {
+  display: flex;
+  margin-left: auto;
+}
+
+.button a {
+  margin-left: 0.8em;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  border-radius: 20px 20px;
+  font-size: 12px;
+}
+
+.button a:nth-child(1) {
+  background: #ddd;
+}
+
+.button a:nth-child(2) {
+  background: #0070ba;
+  color: #fff;
+}
+
+.main-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.logo {
+  margin-right: 16px;
+}
